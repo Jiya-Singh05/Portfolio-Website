@@ -1,0 +1,123 @@
+.saturn {
+  
+    width: 663px;
+    position: absolute;
+    left:850px;
+    bottom: 60px;
+    top: 40px;
+    z-index: 99;
+}
+.saturn img {
+    width: 100%;
+    filter: drop-shadow(0 0 30px rgba(89, 12, 255, 0.464));
+}
+.saturnimage:hover {
+    transform: scale(1.05);
+  transition: 0.5s ease;
+}
+.about-image img {
+  width: 250px;
+  object-fit: cover;
+  border: 3px solid rgba(218, 186, 186, 0.907);
+  box-shadow:
+    0 0 20px rgb(255, 255, 255),
+    0 0 40px rgb(106, 39, 21);
+}
+
+.about-image:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+.rocket img {
+  width: 150px;
+  margin-bottom: -300px;
+  filter: drop-shadow(0 0 100px rgb(143, 100, 27));
+}
+.rocket:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.ufodiv img {
+  width: 200px;
+  max-width: 100%;
+  filter: drop-shadow(0 0 30px rgba(89, 12, 255, 0.464));
+ 
+
+
+  
+}
+
+.ufodiv:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+.ufodiv {
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+
+
+}
+.projectcontent img {
+  margin-bottom: 15px;
+  width: 100%;
+  border-radius: 10px;
+
+}
+body {
+  overflow-x: hidden;
+}
+
+
+
+@media (max-width: 900px) {
+    .saturn {
+    position: relative;
+    width: 420px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: 40px auto 0;
+  }
+  .about-image img {
+    width: 220px;
+  }
+  .rocket img {
+    width: 120px;
+    margin-bottom: -180px;
+  }
+  .ufodiv {
+    position: relative;
+    top: 0;
+    text-align: center;
+    
+  }
+
+  .ufodiv img {
+    width: 200px;
+   
+  }
+}
+
+
+
+@media (max-width: 600px) {
+
+  .saturn {
+    width: 300px;
+    margin-top: 30px;
+  }
+  .about-image img {
+    width: 180px;
+  }
+  .rocket img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  .ufodiv img {
+    width: 160px;
+  }
+  .projectcontent img {
+    border-radius: 8px;
+  }
+}

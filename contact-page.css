@@ -1,0 +1,151 @@
+.contactpage {
+  padding: 80px;
+  color: rgb(0, 0, 0);
+  min-height: 580px;
+}
+.contacttitle {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 50px;
+   text-shadow:
+0 0 25px rgb(255, 0, 204),
+0 0 40px rgb(246, 134, 233);
+text-decoration: underline;
+
+}
+.contacttitle:hover {
+  text-decoration: underline;
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.contactcontent {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.contactinfo {
+  flex: 1;
+
+}
+.contactinfo h3 {
+  font-size: 50px;
+  margin-bottom: 15px;
+  color: rgb(0, 0, 0);
+  text-shadow:
+0 0 20px rgb(255, 217, 0),
+0 0 35px rgb(19, 215, 91);
+font-family: Dancing Script;
+
+}
+.contactinfo a,
+.contactinfo p {
+  color: rgb(255, 255, 255);
+  line-height: 1.6;
+  margin-bottom: 10px;
+  font-size: 23px;
+ font-style: italic;
+  font-weight: 700;
+}
+.contactinfo a {
+  font-family: roboto;
+}
+.contactform {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contactform input, .contactform textarea {
+  background: linear-gradient(black, rgb(12, 12, 73));
+  border-width: 2px;
+  border: solid;
+  border-color: rgb(255, 255, 255);
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  color: white;
+  width: 600px;
+  height: 20px;
+  box-shadow: 0 0 15px white;
+
+
+}
+.contactform textarea {
+  height: 200px;
+
+}
+.contactform button {
+  padding: 12px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 25px;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow:
+0 0 10px rgb(255, 217, 0),
+0 0 15px rgb(19, 215, 91);
+ font-family:monospace;
+}
+.contactform button:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+
+
+
+
+@media (max-width: 900px) {
+  .contactpage {
+    padding: 50px 30px;
+  }
+  .contactcontent {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .contactinfo h3 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .contactinfo a,
+  .contactinfo p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .contactform {
+    align-items: center;
+  }
+  .contactform input,
+  .contactform textarea {
+    width: 100%;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .contactpage {
+    padding: 40px 20px;
+  }
+  .contacttitle {
+    font-size: 28px;
+  }
+  .contactinfo h3 {
+    font-size: 32px;
+  }
+  .contactinfo a,
+  .contactinfo p {
+    font-size: 16px;
+  }
+  .contactform input,
+  .contactform textarea {
+    max-width: 90%;
+  }
+  .contactform textarea {
+    height: 150px;
+  }
+  .contactform button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+
+
