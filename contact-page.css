@@ -37,6 +37,7 @@ text-decoration: underline;
 font-family: Dancing Script;
 
 }
+
 .contactinfo a,
 .contactinfo p {
   color: rgb(255, 255, 255);
@@ -147,5 +148,7 @@ font-family: Dancing Script;
     padding: 10px 20px;
   }
 }
+
+
 
 
