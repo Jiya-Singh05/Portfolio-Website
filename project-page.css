@@ -25,7 +25,7 @@ text-decoration: underline;
 
 }
 .projectcontent {
-  background: linear-gradient(rgb(0, 1, 20), rgb(50, 13, 67), rgb(60, 27, 90));
+  background: linear-gradient(rgb(0, 1, 20), rgb(50, 13, 67), rgb(70, 37, 100));
   padding: 20px;
   width: 170px;
   text-align: center;
@@ -39,7 +39,7 @@ text-decoration: underline;
 .projectcontent:hover {
   transform: scale(1.1);
   transition: 0.5s;
-  box-shadow: 0 0 30px rgb(243, 124, 199);
+  box-shadow: 0 0 30px rgb(255, 255, 255);
 }
 
 .projectcontent h3 {
