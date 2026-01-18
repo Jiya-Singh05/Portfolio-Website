@@ -12,7 +12,7 @@ font-size: 45px;
 margin-bottom: 60px;
 color: rgb(0, 0, 0);
 text-shadow:
-0 0 20px rgb(255, 0, 149),
+0 0 20px rgb(255, 255, 255),
 0 0 35px rgb(76, 47, 144);
 text-decoration: underline;
 
@@ -35,20 +35,21 @@ position: relative;
   width: 280px;
   padding: 30px;
   border-radius: 20px;
-  background: rgba(248, 104, 224, 0.138);
+  background: rgba(137, 77, 127, 0.138);
   border: 2px solid rgba(255, 255, 255, 0.15);
   transition: 0.4s ease;
 }
 .skillbox:hover {
-  box-shadow: 0 0 30px rgb(243, 124, 199);
+  box-shadow: 0 0 30px rgb(255, 255, 255);
   transform: scale(1.1);
   transition: 0.5s;
+  background:linear-gradient(rgb(0, 0, 0),rgb(27, 28, 82)) ;
 }
 .skillbox h3 {
   font-size: 26px;
   margin-bottom: 15px;
   color: rgba(232, 119, 183, 0.744);
-  text-shadow: 0 0 10px rgba(248, 112, 225, 0.7);
+  text-shadow: 0 0 10px rgba(120, 7, 101, 0.7);
   text-decoration: underline;
  font-family: monospace;
 }
