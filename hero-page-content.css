@@ -3,7 +3,7 @@
   align-items: center;
   padding: 0 10%;
   position: relative;
-  z-index: 999px;
+  z-index: 999;
  
 }
 
@@ -52,7 +52,7 @@ font-weight: 700;
 
 }
 .home-content h3 {
-font-size: 32px;
+font-size:32px;
 font-weight: 700;
 color: rgb(255, 255, 255);
 text-shadow:
@@ -82,7 +82,7 @@ text-shadow:
     white-space: nowrap;
   overflow: hidden;
   animation: 
-  typing1 2s steps(30) ,
+  typing1 2s steps(23) ,
   cursor1 0.75s step-end infinite;
 }
 @keyframes cursor1 {
@@ -90,7 +90,7 @@ text-shadow:
 }
 @keyframes typing1 {
   from {width:0 ;}
-  to {width: 30ch}
+  to {width: 23ch}
 }
 
 
@@ -165,7 +165,7 @@ html {
     font-size: 56px;
   }
   .home-content h3 {
-    font-size: 26px;
+    font-size: 20px;
     width: 280px;
     margin: auto;
   }
@@ -189,7 +189,7 @@ html {
     font-size: 30px;
   }
   .home-content h3 {
-    font-size: 22px;
+    font-size: 20px;
     width: 230px;
   }
   .home-content p {
