@@ -1,11 +1,10 @@
 .saturn {
   
     width: 660px;
-    position: absolute;
-    left:850px;
+    position: relative;
     bottom: 60px;
     top: 40px;
-    z-index: 99;
+    z-index: 1;
 }
 
 .saturnimage {
@@ -133,3 +132,4 @@ body {
     border-radius: 8px;
   }
 }
+
