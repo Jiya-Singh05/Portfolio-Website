@@ -14,18 +14,15 @@
   max-width: 900px;
 }
 .home-content h1 {
-color: rgb(230, 245, 255);
-
-  font-size: 32px;
+color: #ffffff;
+font-size: 60px;
+font-family: Syne;
+font-weight: 800;;
   
 }
 .home-content h1 span {
-font-size: 70px;
-background: linear-gradient(rgb(255, 0, 191),
-  rgb(0, 57, 180),
-rgb(0, 200, 255),
-rgb(88, 217, 246));
-font-weight: 700;
+font-size: 65px;
+background:#a78bfa;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
   
@@ -39,7 +36,7 @@ font-weight: 700;
 .talk {
  padding: 6px;
  font-size: 20px;
- font-family: monospace;
+ font-family: Space Grotesk;
  border-radius: 20px;
  cursor: pointer;
  font-weight: 600;
@@ -54,19 +51,13 @@ font-weight: 700;
 .home-content h3 {
 font-size:32px;
 font-weight: 700;
-color: rgb(255, 255, 255);
-text-shadow:
-  0 0 20px rgb(80, 255, 200),
-  0 0 20px rgb(80, 255, 200),
-  0 0 24px rgb(160, 120, 255),
-  0 0 48px rgb(96, 60, 181);
-  
+color: #888888;
   white-space: nowrap;
   overflow: hidden;
   animation: 
   typing 2s steps(21) ,
-  cursor 0.4s step-end infinite;
-  font-family: monospace ;
+  cursor 0.75s step-end infinite;
+  font-family: Space Grotesk ;
  
 }
 @keyframes cursor {
@@ -77,34 +68,13 @@ text-shadow:
   to {width: 21ch}
 }
 
-.home-content h1 {
- 
-    white-space: nowrap;
-  overflow: hidden;
-  animation: 
-  typing1 2s steps(23) ,
-  cursor1 0.75s step-end infinite;
-}
-@keyframes cursor1 {
-  50% { border-color: transparent;}
-}
-@keyframes typing1 {
-  from {width:0 ;}
-  to {width: 23ch}
-}
-
-
 
 .home-content p {
   font-size: 20px;
   font-weight: 500;
-  color: white;
-  font-family: monospace;
+  color: #888888;
+  font-family: Space Grotesk;
 }
-
-
-
-
 
 
 
