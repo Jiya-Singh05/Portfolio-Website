@@ -12,10 +12,11 @@ font-size: 45px;
 margin-bottom: 60px;
 color: rgb(0, 0, 0);
 text-shadow:
-0 0 20px rgb(255, 255, 255),
-0 0 35px rgb(76, 47, 144);
+  0 0 10px rgb(228, 145, 201),
+  0 0 20px rgb(152, 37, 152);
 text-decoration: underline;
-
+font-family: syne;
+font-weight: 750;
 }
 .skilltitlediv {
 z-index: 2;
@@ -40,7 +41,7 @@ position: relative;
   transition: 0.4s ease;
 }
 .skillbox:hover {
-  box-shadow: 0 0 30px rgb(255, 255, 255);
+  box-shadow: 0 0 25px rgb(228, 145, 201);
   transform: scale(1.1);
   transition: 0.5s;
   background:linear-gradient(rgb(0, 0, 0),rgb(27, 28, 82)) ;
@@ -51,12 +52,13 @@ position: relative;
   color: rgba(232, 119, 183, 0.744);
   text-shadow: 0 0 10px rgba(120, 7, 101, 0.7);
   text-decoration: underline;
- font-family: monospace;
+font-family: Londrina Outline;
 }
 .skillbox p {
   font-size: 18px;
   color: white;
- 
+  font-family: Syne;
+
   line-height: 1.6;
 }
 
