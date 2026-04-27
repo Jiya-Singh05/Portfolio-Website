@@ -15,16 +15,17 @@
  
 }
 .aboutcontent h2 {
- font-size: 40px;
+ font-size: 30px;
  margin-bottom: 30px;
  text-decoration: underline;
- font-weight: 600;
- color: rgb(255, 246, 246);
+ font-weight: 750;
  text-shadow:
-    0 0 10px rgb(255, 0, 149),
-    0 0 20px rgb(160, 120, 255);
-   color: black;
+  0 0 10px rgb(228, 145, 201),
+  0 0 20px rgb(152, 37, 152);
+  color:rgb(0, 0, 0);
+  font-family: Syne;
 }
+
 .aboutcontent h2:hover {
   transform: scale(1.05);
   transition: 0.5s ease;
@@ -35,6 +36,7 @@
   color: white;
   max-width: 600px;
   line-height: 1.7;
+  font-family: Syne;
 }
 
 
