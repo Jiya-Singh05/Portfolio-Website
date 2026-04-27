@@ -7,10 +7,12 @@
   text-align: center;
   font-size: 35px;
   margin-bottom: 50px;
-   text-shadow:
-0 0 25px rgb(255, 0, 204),
-0 0 40px rgb(246, 134, 233);
+    text-shadow:
+  0 0 10px rgb(228, 145, 201),
+  0 0 20px rgb(152, 37, 152);
 text-decoration: underline;
+font-family: syne;
+font-weight: 750;
 
 }
 .contacttitle:hover {
@@ -31,10 +33,11 @@ text-decoration: underline;
   font-size: 50px;
   margin-bottom: 15px;
   color: rgb(0, 0, 0);
-  text-shadow:
-0 0 20px rgb(255, 217, 0),
-0 0 35px rgb(19, 215, 91);
-font-family: Dancing Script;
+   text-shadow:
+  0 0 10px rgb(255, 255, 255),
+  0 0 20px rgb(154, 10, 154);
+font-weight: 800;
+font-family: Londrina Outline;
 
 }
 
@@ -67,6 +70,7 @@ font-family: Dancing Script;
   width: 600px;
   height: 20px;
   box-shadow: 0 0 15px white;
+  
 
 
 }
@@ -148,7 +152,5 @@ font-family: Dancing Script;
     padding: 10px 20px;
   }
 }
-
-
 
 
