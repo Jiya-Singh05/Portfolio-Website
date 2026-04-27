@@ -8,25 +8,27 @@
 }
 
 .home-content {
-  margin-top: 170px;
+  margin-top: 70px;
   margin-left: -70px;
   width: 100%;
   max-width: 900px;
 }
 .home-content h1 {
 color: #ffffff;
-font-size: 60px;
+font-size: 50px;
 font-family: Syne;
 font-weight: 800;;
   
 }
 .home-content h1 span {
-font-size: 65px;
+font-size: 105px;
 background:#a78bfa;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+font-family: Londrina Outline;
   
 }
+
 
 @keyframes gradientmove {
 0% {background-position: 0%}
@@ -40,9 +42,9 @@ background:#a78bfa;
  border-radius: 20px;
  cursor: pointer;
  font-weight: 600;
- background: linear-gradient(rgb(0, 229, 255),
-  rgb(0, 153, 255),
-  rgb(122, 92, 255));
+ background: linear-gradient(rgb(152, 37, 152),
+rgb(228, 145, 201),
+rgb(241, 233, 233));
 }
 .talk:hover {
  transform: rotate(-5deg) ;
@@ -51,7 +53,7 @@ background:#a78bfa;
 .home-content h3 {
 font-size:32px;
 font-weight: 700;
-color: #888888;
+color: rgb(241, 233, 233);
   white-space: nowrap;
   overflow: hidden;
   animation: 
@@ -72,7 +74,7 @@ color: #888888;
 .home-content p {
   font-size: 20px;
   font-weight: 500;
-  color: #888888;
+  color:rgb(241, 233, 233);
   font-family: Space Grotesk;
 }
 
@@ -180,3 +182,20 @@ html {
   }
 }
 
+
+
+
+
+#particles-js {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;     
+  background: #0a0a1a; 
+}
+.content { 
+  position: relative;
+  z-index: 1;
+}
