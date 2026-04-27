@@ -22,7 +22,7 @@
     transform: scale(1.05);
   transition: 0.5s ease;
 }
-.about-image img {
+/* .about-image img {
   width: 250px;
   object-fit: cover;
   border: 3px solid rgba(218, 186, 186, 0.907);
@@ -38,7 +38,70 @@
     0 0 20px rgb(255, 255, 255),
     0 0 40px rgb(0, 0, 0),
     0 0 30px black;
+} */
+ .about-image {
+  position: relative;
+  width: 400px;        /* your existing width */
+  overflow: hidden;
+  border-radius: 12px;
 }
+
+.about-image img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease, transform 1s ease;
+}
+
+/* photo 1 — visible by default */
+.about-image .photo1 {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* photo 2 — hidden by default */
+.about-image .photo2 {
+  opacity: 0;
+  transform: scale(1.05);
+}
+
+/* on hover: swap them */
+.about-image:hover .photo1 {
+  opacity: 0;
+  transform: scale(1.05);
+}
+
+.about-image:hover .photo2 {
+  opacity: 1;
+  transform: scale(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .rocket img {
   width: 150px;
   margin-bottom: -300px;
@@ -117,6 +180,7 @@ body {
   .saturn {
     width: 280px;
     margin-top: 30px;
+
   }
   .about-image img {
     width: 180px;
@@ -132,4 +196,3 @@ body {
     border-radius: 8px;
   }
 }
-
