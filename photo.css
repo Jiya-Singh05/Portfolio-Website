@@ -1,10 +1,9 @@
 .saturn {
-  
-    width: 660px;
-    position: relative;
-    bottom: 60px;
-    top: 40px;
-    z-index: 1;
+  width: 660px;
+  position: relative;
+  bottom: 60px;
+  top: 40px;
+  z-index: 1;
 }
 
 .saturnimage {
@@ -12,16 +11,17 @@
 }
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
-50% {transform: translateY(-20px); }
+  50% {transform: translateY(-20px); }
 }
 .saturn img {
-    width: 100%;
-    filter: drop-shadow(0 0 30px rgba(89, 12, 255, 0.464));
+  width: 100%;
+  filter: drop-shadow(0 0 30px rgba(89, 12, 255, 0.464));
 }
 .saturnimage:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
   transition: 0.5s ease;
 }
+
 /* .about-image img {
   width: 250px;
   object-fit: cover;
@@ -39,9 +39,10 @@
     0 0 40px rgb(0, 0, 0),
     0 0 30px black;
 } */
- .about-image {
+
+.about-image {
   position: relative;
-  width: 400px;        /* your existing width */
+  width: 400px;
   overflow: hidden;
   border-radius: 12px;
 }
@@ -55,19 +56,16 @@
   transition: opacity 0.5s ease, transform 1s ease;
 }
 
-/* photo 1 — visible by default */
 .about-image .photo1 {
   opacity: 1;
   transform: scale(1);
 }
 
-/* photo 2 — hidden by default */
 .about-image .photo2 {
   opacity: 0;
   transform: scale(1.05);
 }
 
-/* on hover: swap them */
 .about-image:hover .photo1 {
   opacity: 0;
   transform: scale(1.05);
@@ -78,47 +76,10 @@
   transform: scale(1);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.rocket img {
-  width: 150px;
-  margin-bottom: -300px;
-  filter: drop-shadow(0 0 100px rgb(143, 100, 27));
-}
-.rocket:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
-}
 .ufodiv img {
   width: 200px;
   max-width: 100%;
   filter: drop-shadow(0 0 30px rgba(89, 12, 255, 0.464));
- 
-
-
-  
 }
 
 .ufodiv:hover {
@@ -129,70 +90,61 @@
   position: absolute;
   z-index: 1;
   top: -5px;
-
-
 }
 .projectcontent img {
   margin-bottom: 15px;
   width: 100%;
   border-radius: 10px;
-
 }
 body {
   overflow-x: hidden;
 }
 
 
-
 @media (max-width: 900px) {
-    .saturn {
-    position: relative;
+  .saturn {
     width: 420px;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    margin: 40px auto 0;
+    bottom: 30px;
+    top: 20px;
   }
-  .about-image img {
-    width: 220px;
-  }
-  .rocket img {
-    width: 120px;
-    margin-bottom: -180px;
-  }
-  .ufodiv {
-    position: relative;
-    top: 0;
-    text-align: center;
-    
+
+  .about-image {
+    width: 300px;
   }
 
   .ufodiv img {
-    width: 200px;
-   
+    width: 150px;
   }
 }
 
-
-
 @media (max-width: 600px) {
-
   .saturn {
     width: 280px;
-    margin-top: 30px;
-
+    bottom: 10px;
+    top: 10px;
   }
-  .about-image img {
+
+  .about-image {
+    width: 220px;
+  }
+
+  .ufodiv img {
+    width: 110px;
+  }
+}
+
+@media (max-width: 480px) {
+  .saturn {
+    width: 220px;
+    bottom: 0;
+    top: 0;
+  }
+
+  .about-image {
     width: 180px;
   }
-  .rocket img {
-    width: 100px;
-    margin-bottom: 10px;
-  }
+
   .ufodiv img {
-    width: 160px;
-  }
-  .projectcontent img {
-    border-radius: 8px;
+    width: 85px;
   }
 }
