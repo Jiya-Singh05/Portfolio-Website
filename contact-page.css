@@ -13,7 +13,6 @@
 text-decoration: underline;
 font-family: syne;
 font-weight: 750;
-
 }
 .contacttitle:hover {
   text-decoration: underline;
@@ -27,7 +26,6 @@ font-weight: 750;
 }
 .contactinfo {
   flex: 1;
-
 }
 .contactinfo h3 {
   font-size: 50px;
@@ -38,7 +36,6 @@ font-weight: 750;
   0 0 20px rgb(154, 10, 154);
 font-weight: 800;
 font-family: Londrina Outline;
-
 }
 
 .contactinfo a,
@@ -70,13 +67,9 @@ font-family: Londrina Outline;
   width: 600px;
   height: 20px;
   box-shadow: 0 0 15px white;
-  
-
-
 }
 .contactform textarea {
   height: 200px;
-
 }
 .contactform button {
   padding: 12px;
@@ -96,6 +89,62 @@ font-family: Londrina Outline;
 }
 
 
+@media (max-width: 768px) {
+  .contactpage {
+    padding: 40px 20px;
+    min-height: auto;
+  }
+
+  .contacttitle {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+
+  .contactcontent {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .contactinfo h3 {
+    font-size: 36px;
+  }
+
+  .contactinfo a,
+  .contactinfo p {
+    font-size: 18px;
+  }
+
+  .contactform input,
+  .contactform textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 480px) {
+  .contactpage {
+    padding: 30px 15px;
+  }
+
+  .contacttitle {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .contactinfo h3 {
+    font-size: 28px;
+  }
+
+  .contactinfo a,
+  .contactinfo p {
+    font-size: 16px;
+  }
+
+  .contactform button {
+    font-size: 13px;
+    padding: 10px;
+  }
+}
 
 
 
