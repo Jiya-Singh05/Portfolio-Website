@@ -4,33 +4,32 @@
   align-items: center;
   justify-content: center;
   padding-top: 120px;
-
 }
+
 .about-div {
   display: flex;
-  gap: 65px;            
+  gap: 65px;
   max-width: 1100px;
   width: 100%;
-
- 
 }
+
 .aboutcontent h2 {
- font-size: 30px;
- margin-bottom: 30px;
- text-decoration: underline;
- font-weight: 750;
- text-shadow:
-  0 0 10px rgb(228, 145, 201),
-  0 0 20px rgb(152, 37, 152);
-  color:rgb(0, 0, 0);
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  font-weight: 750;
+  text-shadow:
+    0 0 10px rgb(228, 145, 201),
+    0 0 20px rgb(152, 37, 152);
+  color: rgb(0, 0, 0);
   font-family: Syne;
 }
 
 .aboutcontent h2:hover {
   transform: scale(1.05);
   transition: 0.5s ease;
-  
 }
+
 .aboutcontent p {
   font-size: 20px;
   color: white;
@@ -39,41 +38,45 @@
   font-family: Syne;
 }
 
-
-
-
-@media (max-width: 900px) {
+/* Responsive */
+@media (max-width: 768px) {
   .aboutpage {
-    padding-top: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 80px;
+    min-height: auto;
   }
+
   .about-div {
     flex-direction: column;
-    gap: 40px;
-    text-align: center;
+    gap: 30px;
+    padding: 0 20px;
   }
+
   .aboutcontent h2 {
-    font-size: 34px;
+    font-size: 24px;
   }
+
   .aboutcontent p {
-    font-size: 18px;
+    font-size: 17px;
     max-width: 100%;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .aboutpage {
-    padding-top: 80px;
+    padding-top: 60px;
   }
+
+  .about-div {
+    gap: 20px;
+    padding: 0 15px;
+  }
+
   .aboutcontent h2 {
-    font-size: 28px;
+    font-size: 20px;
+    margin-bottom: 20px;
   }
+
   .aboutcontent p {
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 15px;
   }
 }
-
-
-
