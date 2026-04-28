@@ -58,65 +58,80 @@ font-family: Londrina Outline;
   font-size: 18px;
   color: white;
   font-family: Syne;
-
   line-height: 1.6;
 }
-
-
-
-
-
-
-
-
 
 
 @media (max-width: 900px) {
   .skilltitle {
     font-size: 36px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
+
   .skillcontainer {
-    gap: 30px;
+    gap: 25px;
   }
+
   .skillbox {
     width: 240px;
-    padding: 25px;
+    padding: 24px;
   }
+
   .skillbox h3 {
     font-size: 22px;
   }
+
   .skillbox p {
     font-size: 16px;
   }
 }
 
-
 @media (max-width: 600px) {
   .skillpage {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
+
   .skilltitle {
     font-size: 28px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 
   .skillcontainer {
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
+    gap: 18px;
   }
+
   .skillbox {
     width: 100%;
-    max-width: 200px;
-    padding: 22px;
+    max-width: 340px;
+    padding: 20px;
   }
 
   .skillbox h3 {
     font-size: 20px;
   }
+
   .skillbox p {
     font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skilltitle {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+
+  .skillbox {
+    max-width: 100%;
+    padding: 18px;
+  }
+
+  .skillbox h3 {
+    font-size: 18px;
+  }
+
+  .skillbox p {
+    font-size: 14px;
   }
 }
